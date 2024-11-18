@@ -1,0 +1,114 @@
+
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+
+* {
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+body{
+    position: relative;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgb(105, 213, 255),rgb(230, 250, 255),rgb(105, 213, 255));
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+ /*.overlay{
+    position: fixed;
+    display: none;
+    width: 100vw; 
+    height: 100vh;
+    opacity: 10%;
+}
+*/
+
+.logo{
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+
+}
+
+.heading-continer {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+
+}
+
+.heading-para{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+h1 {
+    font-size: 3.2rem;
+    font-weight: 800;
+    color: #054445;
+}
+
+
+h3{
+    font-size : 0.9rem;
+    color: #05445E;
+}
+
+.signbox{
+    display: inline-block;
+    align-content: center;
+    justify-content:center ; 
+    margin-top: 60px;
+    height: 30%;
+    width: 30%; 
+    backdrop-filter: brightness(0.9);
+    border-radius: 35px;
+    
+}
+
+#email-input{
+    width: 350px;
+    height: 35px;
+    border-radius: 7px;
+    background-color: #054445;
+    opacity: 100%;
+    border: 0.5px , white,solid;
+
+}
+
+#pass-input{
+    width: 350px;
+    height: 35px;
+    border-radius: 7px;
+    background-color: #054445;
+    opacity: 100%;
+    border: 0.5px , white,solid;
+}
+
+.email-l{
+    font-size: 1rem;
+}
+
+.pass-l{
+    font-size: 1rem;
+    
+}
+
+.btn{
+    width: 350px;
+    height: 35px;
+    border-radius: 7px;
+    border: none;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.footer{
+    margin-top: 40px;
+    font-size: 0.7rem;
+}
